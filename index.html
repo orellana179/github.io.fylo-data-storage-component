@@ -12,34 +12,34 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main class="container">
     <section class="container-logo">
-      <div class="logo-fylo">
-        <img src="images/logo.svg" alt="Logo of Fylo">
-      </div>
-      <div class="services-fylo">
-        <img src="images/icon-document.svg" alt="Icon of document">
-        <img src="images/icon-folder.svg" alt="Icon of folder">
-        <img src="images/icon-upload.svg" alt="Icon of upload">
+      <img src="images/logo.svg" alt="Logo of Fylo">
+      <div class="services-icon">
+        <div class="icon-content">
+          <img src="images/icon-document.svg" alt="Icon of document">
+        </div>
+        <div class="icon-content">
+          <img src="images/icon-folder.svg" alt="Icon of folder">
+        </div>
+        <div class="icon-content">
+          <img src="images/icon-upload.svg" alt="Icon of upload">
+        </div>
+        
       </div>
     </section>
     <section class="container-storage">
-      <p class="storage__text-warnig">You’ve used 815 GB of your storage</p>
+      <p class="storage__text-warnig">You’ve used <span class="text-warning-used">815</span> GB of your storage</p>
       <div class="storage-chart">
-        <div class="chart__capacity-current">
+        <div class="storage-chart__capacity-current">
           <div class="capacity-current-btn"></div>
         </div>
-        <div class="capacity-number">
-          <div class="left">0 GB</div>
-          <div class="right">1000 GB</div>
-        </div>
+      </div>
+      <div class="capacity-dates">
+        <div class="left">0 GB</div>
+        <div class="right">1000 GB</div>
       </div>
       <div class="remaining-storage">
         <span class="cuantity">185</span>

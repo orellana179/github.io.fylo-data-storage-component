@@ -18,5 +18,118 @@ body{
     background-image: url('../images/bg-mobile.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    gap: 40px;
+}
+.container{
+    width: 330px;
+    height: 450px;
+    display: grid;
+}
+.container-logo{
+    background-color: var(--dark-Blue);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 230px;
+    display: grid;
+    padding: 50px;
+}
+.services-icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: flex-end;
+}
+.icon-content{
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--very-Dark-Blue);
+    margin-right: 15px;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+}
+
+/* container-storage */
+
+.container-storage{
+    height: 170px;
+    display: grid;
+    background-color: var(--dark-Blue);
+    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+.storage__text-warnig{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--pale-Blue);
+}
+.text-warning-used{
+    font-weight: 700;
+}
+.storage-chart{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--very-Dark-Blue);
+    display: grid;
+    align-items: center;
+}
+.storage-chart__capacity-current{
+    width: 75%;
+    height: 16px;
+    border-radius: 10px;
+    background: linear-gradient(20deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    margin-left: 3px;
+    display: grid;
+    justify-items: flex-end;
+}
+.capacity-current-btn{
+    width: 16px;
+    height: 16px;
+    background-color: var(--pale-Blue);
+    border-radius: 50%;
+}
+.capacity-dates{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: var(--pale-Blue);
+}
+.remaining-storage{
+    width: 200px;
+    height: 80px;
+    background-color: var(--pale-Blue);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    grid-template-columns: 80px 90px;
+    position: absolute;
+    margin-top: 125px;
+}
+.cuantity{
+    font-size: 50px;
+    font-weight: 700;
+}
+.gb-left{
+    font-size: 20px;
+}
+
+/* Style of attribute */
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
