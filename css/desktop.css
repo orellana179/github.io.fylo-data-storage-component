@@ -1,0 +1,32 @@
+body{
+    background-image: url('../images/bg-desktop.png');
+    background-position: bottom;
+    background-size: 100% 50%;
+    background-color: hsl(229, 57%, 11%);
+}
+.container{
+    width: 900px;
+    height: 250px;
+    grid-template-columns: 35% 65%;
+    gap: 20px;
+    align-items: flex-end;
+}
+.container-storage{
+    justify-content: start;
+    grid-template-columns: 100%;
+    padding: 30px;
+    justify-items: flex-start;
+}
+.remaining-storage{
+    justify-self: end;
+    margin-top: -80px;
+    border-bottom-right-radius: 0px;
+}
+.remaining-storage_buble{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    justify-self: end;
+    border-top: 25px solid var(--pale-Blue);
+    border-left: 25px solid transparent;
+ }
